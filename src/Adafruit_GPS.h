@@ -195,7 +195,7 @@ public:
   char mag = 'X';    ///< Magnetic variation direction
   bool fix;          ///< Have a fix?
   uint8_t fixquality;    ///< Fix quality (0, 1, 2 = Invalid, GPS, DGPS)
-  uint8_t fixquality_3d; ///< 3D fix quality (1, 3, 3 = Nofix, 2D fix, 3D fix)
+  uint8_t fixquality_3d; ///< 3D fix quality (1, 2, 3 = Nofix, 2D fix, 3D fix)
   uint8_t satellites;    ///< Number of satellites in use
 
   uint16_t LOCUS_serial;  ///< Log serial number
